@@ -1,0 +1,38 @@
+:root {
+  --colorAzul: #2c3e50;
+  --colorAzulOscuro: #021d38;
+  --colorVerde: #18bc9c;
+  --familyTitles: "Montserrat";
+  --parrafos: "Lato";
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--parrafos);
+}
+
+.header__titulos {
+  font-family: var(--familyTitles);
+}
+
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+}

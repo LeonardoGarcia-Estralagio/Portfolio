@@ -1,0 +1,444 @@
+/* HEADER */
+
+.home__header {
+  background-color: var(--colorAzul);
+}
+
+.home__header__div {
+  padding: 20px;
+}
+
+.home__header__titulo-1 {
+  font-weight: 900;
+  color: white;
+}
+
+.home__header__button {
+  background-color: var(--colorVerde);
+  border: none;
+  font-weight: bold;
+  padding: 10px;
+  text-transform: uppercase;
+}
+
+.home__header__nav-menu {
+  display: none;
+}
+
+.home__header__button-send {
+  background-color: var(--colorVerde);
+  border: none;
+  padding: 15px 20px;
+  font-weight: 900;
+}
+
+/* MAIN */
+
+.home__main__section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px;
+  background-color: var(--colorVerde);
+}
+
+.home__main__section img {
+  padding: 25px;
+}
+
+.home__main__titulo-1 {
+  font-size: 3rem;
+  font-weight: bolder;
+  text-transform: uppercase;
+  color: white;
+}
+
+.home__main__section p {
+  text-align: center;
+  font-weight: 900;
+  color: white;
+}
+
+.home__main__section-div-star1 {
+  display: flex;
+  color: white;
+}
+
+.home__main__section-div-star1 hr {
+  border: 2px solid white;
+  width: 100px;
+  color: white;
+  opacity: 1;
+}
+
+.home__main__section-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 80px 0;
+}
+
+.home__main__titulo-2 {
+  font-size: 2rem;
+  font-weight: bolder;
+  text-transform: uppercase;
+  color: var(--colorAzul);
+}
+
+.home__main__section-div-star2 {
+  display: flex;
+  color: var(--colorAzul);
+  margin-bottom: 30px;
+}
+
+.home__main__section-div-star2 hr {
+  border: 2px solid var(--colorAzul);
+  width: 100px;
+  color: var(--colorAzul);
+  opacity: 1;
+}
+
+.home__main__section__div {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+}
+
+.home__main__section__div figure img {
+  width: 100%;
+}
+
+.home__main__section-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 70px 25px;
+  background-color: var(--colorVerde);
+}
+
+.home__main__titulo-3 {
+  font-size: 2rem;
+  font-weight: bolder;
+  text-transform: uppercase;
+  color: white;
+}
+
+.home__main__section__article {
+  margin: 30px 0;
+}
+
+.home__main__section__article p {
+  text-align: left;
+  color: white;
+}
+
+.home__main__button-download {
+  padding: 15px;
+}
+
+.home__main__button-download a {
+  color: white;
+}
+
+.home__main__section-forms {
+  display: flex;
+  flex-direction: column;
+}
+
+.home__main__section-forms-div label {
+  color: var(--colorAzul);
+  text-transform: initial;
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+.home__main__section-forms-div input {
+  width: 100%;
+  border: none;
+  border-bottom: solid 1px var(--colorAzul);
+  opacity: 0.1;
+}
+
+.home__main__section-forms-div-textarea {
+  width: 100%;
+  border: none;
+  border-bottom: solid 1px var(--colorAzul);
+  opacity: 0.1;
+  margin-bottom: 10px;
+}
+
+
+
+/* FOOTER */
+
+.home__footer__section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px;
+  background-color: var(--colorAzul);
+}
+
+.home__footer__article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  margin-bottom: 2rem;
+}
+
+.home__footer__article h3 {
+  font-size: 1.7rem;
+  font-weight: 600;
+  margin: 30px 0;
+}
+
+.home__footer__article p {
+  font-weight: 900;
+  margin-bottom: 0;
+}
+
+.home__footer__article-redes {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+}
+
+.home__footer__article-redes h3 {
+  font-size: 1.7rem;
+  font-weight: 900;
+}
+
+.home__footer__article-redes-ul-1 {
+  display: flex;
+  justify-content: start;
+  gap: 15px;
+}
+
+.home__footer__article-redes-link li {
+  border-radius: 50%;
+  padding: 6px 11px;
+  border: solid 2px white;
+  width: 40px;
+  height: 40px;
+}
+
+.home__footer__article-redes-ul-2 {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 98px;
+}
+
+.home__footer__article-about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+.home__footer__article-about h3 {
+  font-size: 1.7rem;
+  text-transform: uppercase;
+  font-weight: 900;
+  margin: 25px 0;
+}
+
+.home__footer__article-about p {
+    font-weight: 900;
+    text-align: center;
+    width: 95%;
+}
+
+.home__footer__article-about span {
+    color: var(--colorVerde);
+}
+
+.home__footer__section-copyright {
+    text-align: center;
+    padding: 30px 40px;
+    background-color: var(--colorAzulOscuro);
+}
+
+.home__footer__section-copyright p {
+    color: white;
+}
+
+
+@media (min-width: 768px) {
+  /* HEADER */
+
+.home__header {
+}
+
+.home__header__div {
+
+}
+
+.home__header__titulo-1 {
+
+}
+
+.home__header__button {
+
+}
+
+.home__header__nav-menu {
+
+}
+
+/* MAIN */
+
+.home__main__section {
+
+}
+
+.home__main__section img {
+
+}
+
+.home__main__titulo-1 {
+
+}
+
+.home__main__section p {
+
+}
+
+.home__main__section-div-star1 {
+
+}
+
+.home__main__section-div-star1 hr {
+
+}
+
+.home__main__section-2 {
+
+}
+
+.home__main__titulo-2 {
+
+}
+
+.home__main__section-div-star2 {
+
+}
+
+.home__main__section-div-star2 hr {
+
+}
+
+.home__main__section__div {
+
+}
+
+.home__main__section__div figure img {
+
+}
+
+.home__main__section-3 {
+
+}
+
+.home__main__titulo-3 {
+
+}
+
+.home__main__section__article {
+
+}
+
+.home__main__section__article p {
+
+}
+
+.home__main__button-download {
+
+}
+
+.home__main__button-download a {
+
+}
+
+.home__main__section-forms {
+
+}
+
+.home__main__section-forms-div label {
+
+}
+
+.home__main__section-forms-div input {
+
+}
+
+.home__main__section-forms-div-textarea {
+
+}
+
+.home__header__button-send {
+
+}
+
+/* FOOTER */
+
+.home__footer__section {
+
+}
+
+.home__footer__article {
+
+}
+
+.home__footer__article h3 {
+
+}
+
+.home__footer__article p {
+
+}
+
+.home__footer__article-redes {
+
+}
+
+.home__footer__article-redes h3 {
+
+}
+
+.home__footer__article-redes-ul-1 {
+
+}
+
+.home__footer__article-redes-link li {
+
+}
+
+.home__footer__article-redes-ul-2 {
+
+}
+
+.home__footer__article-about {
+
+}
+
+.home__footer__article-about h3 {
+
+}
+
+.home__footer__article-about p {
+
+}
+
+.home__footer__article-about span {
+
+}
+
+.home__footer__section-copyright {
+
+}
+
+.home__footer__section-copyright p {
+
+}
+}
